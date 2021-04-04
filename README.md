@@ -4,12 +4,16 @@
 
 Запуск програми
 
-Потрібно виконати такі дії в даній послідовності
+Можливо 2 випадки, це створення бази з нуля та мігрування існуючої бази з Лабораторної №1
+Для першого випадку потрібно виконати такі дії
 ```shell
   https://github.com/VadimPusiak788/DB_Lab.git
-  docker-compose up -d
+  docker-compose up
   python -m venv env
   source env/bin/activate
   source .env
   python3 -m pip install -r requirements.txt
+  python3 query.py
 ```
+Команда ```docker-compose up``` створить базу з нуля та команда ```python3 query.py``` виконає індивідуальний запит.
+
