@@ -14,8 +14,8 @@ docker-compose up
   source .env
   python3 -m pip install -r requirements.txt
 ```
-Команда ```docker-compose up``` створить базу з нуля.
-Для другого випадку потрібно виконати такі дії
+Команда ```docker-compose up``` створить базу з нуля.  
+Для другого випадку потрібно виконати такі дії  
 При відсутності бази з Лабораторної №1 потрібно виконати такі дії прописані в README.md для [першої лабораторної](https://github.com/VadimPusiak788/DB_Lab)
 
 
