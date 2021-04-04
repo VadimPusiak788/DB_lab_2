@@ -13,7 +13,9 @@ docker-compose up
   source env/bin/activate
   source .env
   python3 -m pip install -r requirements.txt
-  python3 query.py
 ```
-Команда ```docker-compose up``` створить базу з нуля та команда ```python3 query.py``` виконає індивідуальний запит.
+Команда ```docker-compose up``` створить базу з нуля.
+Для другого випадку потрібно виконати такі дії
+При відсутності бази з Лабораторної №1 потрібно виконати такі дії прописані в README.md для [першої лабораторної](https://github.com/VadimPusiak788/DB_Lab)
+
 
