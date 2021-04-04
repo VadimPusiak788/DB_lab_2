@@ -4,11 +4,11 @@
 
 Запуск програми
 
-Можливо 2 випадки, це створення бази з нуля та мігрування існуючої бази з Лабораторної №1
+Можливо 2 випадки, це створення бази з нуля та мігрування існуючої бази з Лабораторної №1.
 Для першого випадку потрібно виконати такі дії
 ```shell
-  https://github.com/VadimPusiak788/DB_Lab.git
-  docker-compose up
+https://github.com/VadimPusiak788/DB_lab_2.git
+docker-compose up
   python -m venv env
   source env/bin/activate
   source .env
