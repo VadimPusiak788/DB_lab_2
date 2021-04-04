@@ -1,4 +1,4 @@
-# Лабораторна робота №1 
+# Лабораторна робота №2
 Пусяк Вадим КМ-82
 
 
@@ -27,6 +27,6 @@ docker-compose up
   python3 -m pip install -r requirements.txt
   python3 query.py
 ```
-Команда ```docker-compose up``` мігрує існуючу базу, ```python3 -m pip install -r requirements.txt``` та ```python3 query.py``` виконає індивідуальний запит та запише у result.csv.
+Команда ```docker-compose up``` мігрує існуючу базу, ```python3 -m pip install -r requirements.txt``` та ```python3 query.py``` виконає індивідуальний запит та запише у result.csv результат запиту.
 
 
